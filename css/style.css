@@ -46,9 +46,23 @@ body {
     padding: 50px;
     background-image: url("../img/sfondo.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.debug h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
 }
 
 .debug p {
-    text-align: justify;
+    text-align: center;
     line-height: 2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.debug button {
+    background: none;
+    padding: 10px 30px;
+    font-size: 18px;
 }
