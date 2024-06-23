@@ -136,6 +136,13 @@ section div {
     text-align: left;
 }
 
+/* promesse */
+
+#promises i {
+    color: blue;
+    font-size: 24px;
+}
+
 /* form */
 
 form {
@@ -148,7 +155,7 @@ input {
     border: none;
     border-bottom: 1px solid lightgray;
     width: 100%;
-
+    background-color: transparent;
 }
 
 form button {
@@ -191,11 +198,12 @@ footer p {
     font-size: 16px;
 }
 
-.copyright {
+div.copyright {
     display: flex;
     align-items: baseline;
     justify-content: center;
     gap: 10px;
+    background-color: transparent;
 }
 
 #subscription {
