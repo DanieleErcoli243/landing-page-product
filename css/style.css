@@ -38,7 +38,12 @@ section {
     text-align: center;
 }
 
-
+.hamburger {
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 24px;
+}
 
 /* utili */
 
@@ -68,6 +73,11 @@ section {
     margin: 10px;
     border: 1px solid lightgray;
 }
+
+.pointer {
+    cursor: pointer;
+}
+
 
 /* intestazione */
 
