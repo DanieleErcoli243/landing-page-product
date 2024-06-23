@@ -2,6 +2,18 @@
 
 @media screen and (min-width: 992px) {
 
+    .hamburger,
+    .closebtn,
+    .sidemenu figure {
+        display: none;
+    }
+
+    .link-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .container {
         max-width: 1080px;
         margin: 0 auto;
