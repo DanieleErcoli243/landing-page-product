@@ -162,10 +162,42 @@ form button {
     color: rgb(64, 217, 102);
 }
 
+/* lista dei social */
+
+.socials {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(64, 217, 102);
+}
+
+.fa-brands {
+    font-size: 24px;
+}
+
+.socials i {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 
 
 /* pie' di pagina */
 
 footer p {
     font-size: 16px;
+}
+
+.copyright {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+#subscription {
+    background-color: rgb(236, 238, 238);
 }
