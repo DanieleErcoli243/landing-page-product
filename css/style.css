@@ -78,7 +78,9 @@ section {
     cursor: pointer;
 }
 
-
+.stars {
+    color: goldenrod;
+}
 
 
 /* intestazione */
