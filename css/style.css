@@ -18,6 +18,11 @@ img {
     width: 100%;
 }
 
+.price {
+    color: rgb(64, 217, 102);
+    margin-top: 10px
+}
+
 /* intestazione */
 
 header {
@@ -29,6 +34,10 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .duck {
