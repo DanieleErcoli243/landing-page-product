@@ -1,0 +1,66 @@
+/* media query per la viewport del desktop */
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .top figure,
+    .debug {
+        flex-basis: 50%;
+    }
+
+    #details {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+    }
+
+    #details div,
+    .navy-duck {
+        flex-basis: 33%;
+    }
+
+
+
+    #details p {
+        text-align: justify;
+    }
+
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .classic {
+        height: 200px;
+    }
+
+    .faq-parent {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .faq-picture,
+    .qa {
+        flex-basis: 50%;
+    }
+
+    #promises {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}

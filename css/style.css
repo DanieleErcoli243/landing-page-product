@@ -25,6 +25,15 @@ h4 {
     font-size: 24px;
 }
 
+#collection h2 {
+    font-size: 32px;
+}
+
+#collection p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
 section {
     text-align: center;
 }
