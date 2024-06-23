@@ -12,6 +12,12 @@ img {
     height: auto;
 }
 
+/* utili */
+
+.w-100 {
+    width: 100%;
+}
+
 /* intestazione */
 
 header {
@@ -65,4 +71,19 @@ body {
     background: none;
     padding: 10px 30px;
     font-size: 18px;
+}
+
+.debug button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* sezione dettagli */
+
+section {
+    text-align: center;
+}
+
+section div {
+    margin: 20px 0;
 }
