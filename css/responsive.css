@@ -8,10 +8,16 @@
         display: none;
     }
 
-    .link-menu {
+    .nav-menu {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 10px;
+        list-style-type: none;
+    }
+
+    .nav-menu a:hover {
+        color: blue;
     }
 
     .container {
